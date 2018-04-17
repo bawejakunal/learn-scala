@@ -1,3 +1,5 @@
+package basic
+
 /**
  * Class with no parameters
  */
@@ -19,9 +21,13 @@ class BrandedCalculator(brand: String) {
     def multiply(x: Int, y: Int): Int = x * y
 }
 
-val calc = new Calculator
-println(calc.add(1, 2))
+object Main{
+    def main(args: Array[String]) {
+        val calc = new Calculator
+        println(calc.add(1, 2))
 
-val brandedCalc = new BrandedCalculator("TI")
-println(brandedCalc.color)
-println(brandedCalc.multiply(5, 6))
+        val brandedCalc = new BrandedCalculator("TI")
+        println(brandedCalc.color)
+        println(brandedCalc.multiply(5, 6))
+    }
+}
