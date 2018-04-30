@@ -1,4 +1,4 @@
-package basic
+package basics
 
 trait Car{
     val brand: String

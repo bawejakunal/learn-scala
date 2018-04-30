@@ -1,3 +1,5 @@
+package basics
+
 // assign an anonymous function to a val
 val add = (x: Int, y: Int) => x + y
 

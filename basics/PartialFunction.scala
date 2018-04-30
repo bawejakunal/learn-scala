@@ -1,8 +1,12 @@
-/**
- * Functions can be applied partially by using [_] wildcard
- */
+package basics
 
-def add(x: Int, y: Int) = x + y
+object Main extends App {
+    /**
+     * Functions can be applied partially by using [_] wildcard
+     */
 
-val add2 = add(_: Int, 2)
-println(add2(3))
+    def add(x: Int, y: Int) = x + y
+
+    val add2 = add(_: Int, 2)
+    println(add2(3))
+}

@@ -1,4 +1,4 @@
-package basic
+package basics
 
 abstract class Shape {
     def getArea(): Double    // method signature, subclass should define

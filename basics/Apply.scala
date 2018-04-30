@@ -1,4 +1,4 @@
-package basic
+package basics
 
 /**
  * All about apply() method in objects and classes

@@ -1,4 +1,4 @@
-package basic
+package basics
 
 /**
  * Class with no parameters
