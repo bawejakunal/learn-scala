@@ -21,7 +21,7 @@ class BrandedCalculator(brand: String) {
     def multiply(x: Int, y: Int): Int = x * y
 }
 
-object Main{
+object ClassRunner {
     def main(args: Array[String]) {
         val calc = new Calculator
         println(calc.add(1, 2))

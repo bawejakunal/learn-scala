@@ -9,7 +9,7 @@ class Circle(r: Int) extends Shape {
     def getArea(): Double = 3.14 * r * r
 }
 
-object Main extends App {
+object ShapeRunner extends App {
     val circle = new Circle(5)
     println(circle.getArea)
 }

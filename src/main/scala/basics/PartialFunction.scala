@@ -1,6 +1,6 @@
 package basics
 
-object Main extends App {
+object PartialFunction extends App {
     /**
      * Functions can be applied partially by using [_] wildcard
      */

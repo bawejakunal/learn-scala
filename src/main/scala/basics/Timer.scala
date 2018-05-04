@@ -11,7 +11,7 @@ object Timer {
     }
 }
 
-object Main extends App {
+object TimerRunner extends App {
     for {_ <- 1 to 10} {
         val x = Timer.currentCount() // increment counter
         println(s"counter = $x")

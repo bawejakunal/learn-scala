@@ -1,6 +1,6 @@
 package basics
 
-object Main extends App {
+object Matching extends App {
     // simple case matching
     val times = 1
     val numberStr = times match {

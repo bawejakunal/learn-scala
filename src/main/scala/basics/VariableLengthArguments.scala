@@ -1,6 +1,6 @@
 package basics
 
-object Main extends App {
+object VariableLengthArguments extends App {
     /**
      * accepts a variable number of string arguments
      */

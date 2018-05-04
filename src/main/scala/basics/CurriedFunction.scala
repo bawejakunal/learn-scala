@@ -1,6 +1,6 @@
 package basics
 
-object Main extends App {
+object CurriedFunctions extends App {
     def multiply(m: Int)(n: Int):Int = m * n
     println(multiply(2)(3))
 

@@ -19,7 +19,7 @@ class Bar {
         "which gets executed as apply call of instantiated objects")
 }
 
- object Main extends App {
+ object Apply extends App {
     // call to apply returns an object of class Foo
     val fooObject = FooFactory() 
     if (fooObject.isInstanceOf[Foo]) println("%s is instance of Foo\n".format(fooObject.toString))

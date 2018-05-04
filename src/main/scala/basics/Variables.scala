@@ -1,6 +1,6 @@
 package basics
 
-object Main extends App {
+object Variables extends App {
     var name = "Steve"
     println(name)
 

@@ -23,7 +23,7 @@ class Multiply extends ((Int, Int) => Int) {
 }
 
 
-object Main extends App {
+object Functions extends App {
     val x = 3
     val y = addOne(x)
     println(s"3 + 1 = $y")

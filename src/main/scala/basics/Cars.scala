@@ -14,7 +14,7 @@ class BMW extends Car with Shiny {
     val shineRefraction = 12
 }
 
-object Main extends App {
+object Cars extends App {
     val bmwCar = new BMW()
     println(bmwCar.brand)
     println(bmwCar.shineRefraction)
