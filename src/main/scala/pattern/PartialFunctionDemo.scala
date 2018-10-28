@@ -1,13 +1,21 @@
 package pattern
 
 object PartialFunctionDemo extends App {
-  val one: PartialFunction[Int, String] = { case 1 => "one" }
+  val one: PartialFunction[Int, String] = {
+    case 1 => "one"
+  }
   println(s"one.isDefinedAt(1) = ${one.isDefinedAt(1)}")
   println(s"one.isDefinedAt(2) = ${one.isDefinedAt(2)}")
 
-  val two: PartialFunction[Int, String] = { case 2      => "two" }
-  val three: PartialFunction[Int, String] = { case 3    => "three" }
-  val wildcard: PartialFunction[Int, String] = { case _ => "something else" }
+  val two: PartialFunction[Int, String] = {
+    case 2 => "two"
+  }
+  val three: PartialFunction[Int, String] = {
+    case 3 => "three"
+  }
+  val wildcard: PartialFunction[Int, String] = {
+    case _ => "something else"
+  }
 
   val partial = one.orElse(two).orElse(three).orElse(wildcard)
 
